@@ -1,29 +1,18 @@
-import { useEffect } from "react";
 import { useState } from "react";
+import Posts from "./components/Posts";
 
 const App = () => {
-  //State lưu kết quả sau khi API trả về
-  const [posts, setPosts] = useState([]);
-  const [isLoading, setLoading] = useState(true);
-  const getPosts = async () => {
-    const response = await fetch(`https://jsonplaceholder.typicode.com/posts`);
-    const data = await response.json();
-    setPosts(data);
-    setLoading(false);
-  };
-  useEffect(() => {
-    getPosts();
-  }, []);
+  const [reloadKey, setReload] = useState(false);
+  const handleReload = () => {
+    setReload(new Date().getTime());
+  }
+  
   return (
-    <div>
-      <h1>Call API useState + useEffect</h1>
-      {isLoading ? (
-        <p>Loading...</p>
-      ) : (
-        posts.map((post) => <h3 key={post.id}>{post.title}</h3>)
-      )}
-    </div>
+   <>
+    <button onClick={handleReload}>Reload</button>
+    <Posts reloadKey={reloadKey}/>
+   </>
   );
-};
+}
 
 export default App;
