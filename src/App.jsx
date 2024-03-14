@@ -1,18 +1,10 @@
-import { useState } from "react";
-import Posts from "./components/Posts";
-
+import Image from "./components/Image";
 const App = () => {
-  const [reloadKey, setReload] = useState(false);
-  const handleReload = () => {
-    setReload(new Date().getTime());
-  }
-  
   return (
-   <>
-    <button onClick={handleReload}>Reload</button>
-    <Posts reloadKey={reloadKey}/>
-   </>
+    <div>
+      <Image />
+    </div>
   );
-}
+};
 
 export default App;
