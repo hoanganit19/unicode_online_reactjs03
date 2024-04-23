@@ -44,6 +44,26 @@
       "user": "Hoàng An",
       "message": "Chào Tuấn. Chúc buổi tối vui vẻ",
       "id": 9
+    },
+    {
+      "user": "Hoàng An",
+      "message": "Demo test",
+      "id": 10
+    },
+    {
+      "user": "Hoàng An Unicode",
+      "message": "Demo tiếp",
+      "id": 11
+    },
+    {
+      "user": "Hoàng An Unicode",
+      "message": "Xin chào anh em",
+      "id": 12
+    },
+    {
+      "user": "Văn Tuấn",
+      "message": "Chào An",
+      "id": 13
     }
   ]
 }
