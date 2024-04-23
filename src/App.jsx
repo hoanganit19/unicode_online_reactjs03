@@ -1,10 +1,14 @@
-import Image from "./components/Image";
-const App = () => {
-  return (
-    <div>
-      <Image />
-    </div>
-  );
-};
+import Chat from "./components/Chat/Chat";
 
-export default App;
+export default function App() {
+  return (
+    <Chat />
+  )
+}
+
+/*
+Client: React useState + useEffect
+Server: Json Server
+
+HTTP Short Polling
+*/

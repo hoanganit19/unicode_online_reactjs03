@@ -1,0 +1,49 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "message": "Tin nhắn 1",
+      "user": "Hoàng An"
+    },
+    {
+      "id": 2,
+      "message": "Tin nhắn 2",
+      "user": "Hoàng An"
+    },
+    {
+      "id": 3,
+      "message": "Tin nhắn 3",
+      "user": "Hoàng An"
+    },
+    {
+      "id": 4,
+      "message": "Tin nhắn 4",
+      "user": "Hoàng An"
+    },
+    {
+      "id": 5,
+      "message": "Tin nhắn 5",
+      "user": "Hoàng An"
+    },
+    {
+      "user": "Hoàng An",
+      "message": "Ăn tối chưa?",
+      "id": 6
+    },
+    {
+      "user": "Hoàng An",
+      "message": "Hello anh em Unicode",
+      "id": 7
+    },
+    {
+      "user": "Văn Tuấn",
+      "message": "Chào An",
+      "id": 8
+    },
+    {
+      "user": "Hoàng An",
+      "message": "Chào Tuấn. Chúc buổi tối vui vẻ",
+      "id": 9
+    }
+  ]
+}
